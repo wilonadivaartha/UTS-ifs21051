@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_gambar_dino">Gamvar</string>
+    <string name="info_nama_dino">Nama Famili</string>
+    <string name="info_deskripsi_dino">Deskripsi</string>
+    <string name="info_periode_dino">Periode Hidup</string>
+    <string name="info_karakter_dino">Karakteristik Fisik</string>
+    <string name="info_habitat_dino">Habitat dan Lingkungan</string>
+    <string name="info_perilaku_dino">Perilaku</string>
+    <string name="info_klasifikasi_dino">Klasifikasi</string>
+
+    <string-array name="gambar_dino">
+        <item>@drawable/icon_a</item>
+        <item>@drawable/icon_b</item>
+        <item>@drawable/icon_c</item>
+        <item>@drawable/icon_d</item>
+        <item>@drawable/icon_e</item>
+        <item>@drawable/icon_f</item>
+        <item>@drawable/icon_g</item>
+        <item>@drawable/icon_h</item>
+    </string-array>
+
+    <string-array name="nama_dino">
+        <item>Tyrannosauridae</item>
+        <item>Sauropoda</item>
+        <item>Stegosauridae</item>
+        <item>Ceratopsia</item>
+        <item>Ankylosauridae</item>
+        <item>Ornithomimidae</item>
+        <item>Hadrosauridae</item>
+        <item>Theropoda</item>
+    </string-array>
+
+    <string-array name="deskripsi_dino">
+        <item>These were large, bipedal theropod dinosaurs with powerful jaws and sharp teeth. The most famous member of this family is Tyrannosaurus Rex.</item>
+        <item>These were the largest land animals ever to have lived. They were herbivores with long necks, tails, and legs. Some well known sauropods include Brachiosaurus, Diplodocus, and Argentinosaurus.</item>
+        <item>These were herbivores with bony plates and spikes along their backs. They had small brains and were relatively slow-moving. Some examples include Stegosaurus, Kentrosaurus, and Dacentrurus.</item>
+        <item>These were herbivores with horns and a bony frill around their necks. They had strong jaws and were well-adapted for grazing. Some ceratopsians include Triceratops, Centrosaurus, and Styracosaurus.</item>
+        <item>These were heavily armored herbivores with bony plates and spikes covering their bodies. They had short legs and were slow-moving. Some ankylosaurs include Ankylosaurus, Nodosaurus, and Pinacosaurus.</item>
+        <item>These were fast, bipedal dinosaurs with long legs and beaks. They were probably omnivores and may have been able to run very fast. Some ornithomimids include Gallimimus, Ornithomimus, and Deinonychus.</item>
+        <item>These were herbivores with duck-billed snouts and crests on their heads. They had powerful jaws and were well-adapted for eating tough plants. Some hadrosaurs include Parasaurolophus, Corythosaurus, and Edmontosaurus.</item>
+        <item>This is a large and diverse group of dinosaurs that includes tyrannosaurs, birds, and many other bipedal dinosaurs. Some theropods were carnivores, while others were herbivores or omnivores.</item>
+    </string-array>
+
+    <string-array name="deskripsi_skincare">
+        <item>Missha All Around Aqua Sun Gel bisa Anda jadikan pilihan karena mengandung SPF 50 sehingga dapat melindungi kulit dari sinar matahari secara optimal.</item>
+        <item>COSRX Low pH Good Morning Gel Cleanser merupakan sabun cuci muka yang tersedia dalam bentuk gel.</item>
+        <item>Klairs Supple Preparation Facial Toner memiliki kandungan ekstrak daun kelor dan licorice yang dapat menjaga hidrasi dan membantu mencerahkan kulit.</item>
+        <item>Sesuai namanya, COSRX Advanced Snail 96 Mucin Power Essence mengandung lendir siput sebanyak 96% yang dapat memberi efek halus dan lembap pada kulit.</item>
+        <item>Kandungannya dapat membuat wajah lebih lembap dan tampak lebih bercahaya. Anda bisa menggunakan produk ini setelah menggunakan toner atau essence.</item>
+        <item>Jika Anda mencari produk skincare Korea yang fokus untuk mencerahkan kulit, produk SOME BY MI Yuja Niacin 30 Days Blemish Care Serum bisa jadi pilihan yang tepat.</item>
+        <item>Skin1004 Madagascar Centella Asiatica Cream merupakan produk skincare terbaik asal Korea Selatan yang memiliki klaim mampu memperkuat lapisan kulit.</item>
+        <item>Skin1004 Madagascar Centella Asiatica Cream merupakan produk skincare terbaik asal Korea Selatan yang memiliki klaim mampu memperkuat lapisan kulit.</item>
+        <item>Selain melembapkan kulit, gel lidah buaya dari Nature Republic ini dapat membantu mengatasi iritasi dan melindungi kulit dari paparan sinar matahari.</item>
+        <item>Dengan kandungan hydro ion mineral water dan ekstrak mawar, Laneige Water Sleeping Mask dapat membantu memperbaiki terkstur dan menjaga kelembapan kulit semalaman.
+                Mamonde Creamy Tint Color Balm merupakan salah satu produk skincare korea berbentuk pelembap bibir yang patut Anda jadikan pilihan.
+        Produk dari Mamonde ini merupakan gabungan sempurna dari pelembap bibir, lipstik, dan lip tint.</item>
+    </string-array>
+
+
+    <string-array name="periode_dino">
+        <item>Late Cretaceous (99-66 million years ago)</item>
+        <item>Late Jurassic - Late Cretaceous (157-66 million years ago)</item>
+        <item>Late Jurassic - Early Cretaceous (157-100 million years ago)</item>
+        <item>Early Cretaceous - Late Cretaceous (145-66 million years ago)</item>
+        <item>Early Cretaceous - Late Cretaceous (145-66 million years ago)</item>
+        <item>Late Cretaceous (99-66 million years ago)</item>
+        <item>Late Cretaceous (76-66 million years ago)</item>
+        <item>Late Triassic - Late Cretaceous (230-66 million years ago)</item>
+    </string-array>
+
+
+    <string-array name="karakter_dino">
+        <item>These were enormous, two-legged predators with the most powerful jaws and teeth of any land animal. They reigned supreme as apex predators during their time. (Examples: Tyrannosaurus Rex, Tarbosaurus,</item>
+        <item>The largest land creatures ever to have walked the Earth! These herbivores possessed incredibly long necks, tails, and legs, allowing them to reach and consume vast quantities of foliage. (Examples: Brachiosaurus, Diplodocus, Argentinosaurus)</item>
+        <item>Herbivores with a distinctive appearance, these dinosaurs sported bony plates and spikes along their backs, likely for defense. Their brains were relatively small, and their movement was presumably slow. (Examples: Stegosaurus, Kentrosaurus, Dacentrurus)</item>
+        <item>Equipped with horns and a bony frill around their necks, these herbivores were well-adapted for grazing. Their powerful jaws could chomp through tough vegetation. (Examples: Triceratops, Centrosaurus, Styracosaurus)</item>
+        <item>Heavily armored herbivores, these dinosaurs were like walking tanks with bony plates and spikes covering their entire bodies. Short legs meant they were slow-moving, but their armor provided excellent protection from predators. (Examples: Ankylosaurus, Nodosaurus, Pinacosaurus)</item>
+        <item>These fast, bipedal dinosaurs were built for speed with long legs and beaks. They were likely omnivores and may have been capable of incredibly fast running. (Examples: Gallimimus, Ornithomimus, Deinonychus)</item>
+        <item>These herbivores had unique duck-billed snouts and crests on their heads. Their powerful jaws allowed them to efficiently eat tough plants. (Examples: Parasaurolophus, Corythosaurus, Edmontosaurus)</item>
+        <item>Encompassing a vast and diverse group, this family includes tyrannosaurs, birds, and many other bipedal dinosaurs. Theropods exhibited a range of dietary preferences, with some being carnivores, herbivores, or even omnivores.</item>
+    </string-array>
+
+    <string-array name="habitat_dino">
+        <item>These large predators lived in a variety of habitats, including forests, floodplains, and coastal areas.</item>
+        <item>These giants favored open habitats like savannas and woodlands, where they could browse on abundant vegetation.</item>
+        <item>These herbivores preferred forests and wooded areas, where their armored bodies and camouflage provided protection from predators.</item>
+        <item>These dinosaurs thrived in diverse habitats, ranging from coastal plains to inland forests and even semi-arid environments.</item>
+        <item>Their armored bodies made them well-suited for a variety of habitats, including forests, deserts, and even near bodies of water.</item>
+        <item>These fast-moving dinosaurs inhabited open habitats like grasslands and savannas, where they could pursue prey or escape predators.</item>
+        <item>These herbivores were found in a wide range of habitats, including forests, floodplains, and coastal areas.</item>
+        <item>As a diverse group, theropods occupied a variety of habitats, from forests and deserts to coastal regions and even the polar regions.</item>
+    </string-array>
+
+    <string-array name="perilaku_dino">
+        <item>These fearsome predators likely employed a mix of hunting strategies, acting as both active hunters in packs and opportunistic scavengers. Cannibalism might have also occurred within these groups. Interestingly, some evidence suggests they may have cared for their young.</item>
+        <item>Imagine gentle giants roaming in herds! These colossal herbivores likely undertook long migrations to find food and may have communicated using low-frequency sounds inaudible to human ears. Building nests and caring for their young are possibilities based on available evidence.</item>
+        <item>Primarily solitary or living in small groups, these herbivores munched on leaves, fruits, and seeds. Their most prominent feature, the spiky tail (thagomizer), served as a formidable defense mechanism. Whether they were active during the day or night remains under debate.</item>
+        <item>Safety in numbers! These herbivores found protection in herds while grazing on tough plants. Their horns and elaborate frills functioned for both defense against predators and visual display.  There's a possibility they cooperatively raised their young within the herd.</item>
+        <item>Picture heavily armored tanks lumbering across the landscape. Solitary and slow-moving, these herbivores fed on low-growing plants. Their primary defense was their impressive armor, although their activity patterns (day or night) are still being unraveled.</item>
+        <item>Built for speed and agility, these dinosaurs were likely adept predators of small animals and insects. They might have lived in flocks, and some theories suggest they potentially built nests and cared for their young.</item>
+        <item>Herding provided safety for these herbivores as they grazed on tough plants. Their unique head crests might have been used for communication and display within the herd. Similar to Ceratopsians, they might have exhibited cooperative breeding behavior.</item>
+        <item>Encompassing a diverse range of behaviors, theropods included predators, scavengers, and even herbivores. Social structures also varied, with some living in packs and others being solitary. Nest building and parental care likely differed among the various theropod species.</item>
+    </string-array>
+
+    <string-array name="klasifikasi_dino">
+        <item>Theropoda: Including bipedal (two-legged) carnivores like Tyrannosaurus rex, Velociraptor, and modern birds.</item>
+        <item>Sauropodomorpha: Encompassing long-necked herbivores like Brachiosaurus, Diplodocus, and Argentinosaurus.</item>
+        <item>Neornithischia: Including bipedal and quadrupedal herbivores like Triceratops, Stegosaurus, and Ankylosaurus.</item>
+        <item>Ornithopoda: Including bipedal herbivores like Hadrosaurs and Iguanodon.</item>
+        <item>Suborder Theropoda: Tyrannosauridae (Tyrannosaurus rex), Velociraptoridae (Velociraptor), Dromaeosauridae (Deinonychus), Troodontidae (Troodon), Archaeopterygidae (Archaeopteryx)</item>
+        <item>Suborder Sauropodomorpha: Brachiosauridae (Brachiosaurus), Diplodocidae (Diplodocus), Titanosauridae (Argentinosaurus), Camarasauridae (Camarasaurus)</item>
+        <item>Suborder Neornithischia: Ceratopsidae (Triceratops), Stegosauridae (Stegosaurus), Ankylosauridae (Ankylosaurus), Pachycephalosauridae (Pachycephalosaurus)</item>
+        <item>Suborder Ornithopoda: Hadrosauridae (Hadrosaurus), Iguanodontidae (Iguanodon), Hypsilophodontidae (Hypsilophodon)</item>
+    </string-array>
+
+</resources>
