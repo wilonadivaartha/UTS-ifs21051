@@ -1,26 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_title">Dino Pedia</string>
+    <string name="about_description">Dino Pedia Adalah Aplikasi seputar family dari Dinosaurus yang dikembangkan untuk UTS PAM</string>
+    <string name="about_developer">Developer</string>
+    <string name="about_developer_name">Wilona Diva Artha Simbolon</string>
+    <string name="about_developer_mail">wilonadivaartha@gmail.com</string>
     <string name="app_name">Dino Pedia</string>
-    <string name="info_gambar_dino">Gamvar</string>
-    <string name="info_nama_dino">Nama Famili</string>
-    <string name="info_deskripsi_dino">Deskripsi</string>
-    <string name="info_periode_dino">Periode Hidup</string>
-    <string name="info_karakter_dino">Karakteristik Fisik</string>
-    <string name="info_habitat_dino">Habitat dan Lingkungan</string>
-    <string name="info_perilaku_dino">Perilaku</string>
-    <string name="info_klasifikasi_dino">Klasifikasi</string>
+    <string name="info_gambar_dino">Picture</string>
+    <string name="info_nama_dino">Family Name</string>
+    <string name="info_deskripsi_dino">Description</string>
+    <string name="info_periode_dino">Life Period</string>
+    <string name="info_karakter_dino">Physical Characteristic</string>
+    <string name="info_habitat_dino">Habitat and Environment</string>
+    <string name="info_perilaku_dino">Behavior</string>
+    <string name="info_klasifikasi_dino">Classification</string>
+    <string name="gambar_detail_dino">Detail Picture</string>
+    <string name="nama_detail_dino">Dinosaurs Name</string>
+    <string name="deskripsi_detail_dino">Dino Description</string>
+    <string name="karakteristik_detail_dino">Dino Characteristic</string>
+    <string name="kelompok_detail_dino">Dino Group</string>
+    <string name="habitat_detail_dino">Habitat Dino</string>
+    <string name="makanan_detail_dino">Food</string>
+    <string name="panjang_detail_dino">Dinos Length</string>
+    <string name="tinggi_detail_dino">Dinos Height</string>
+    <string name="bobot_detail_dino">Dinos Weight</string>
+    <string name="kelemahan_detail_dino">Dinos Weakness</string>
 
+    <!--gambar famili-->
     <string-array name="gambar_dino">
-        <item>@drawable/icon_a</item>
-        <item>@drawable/icon_b</item>
-        <item>@drawable/icon_c</item>
-        <item>@drawable/icon_d</item>
-        <item>@drawable/icon_e</item>
-        <item>@drawable/icon_f</item>
-        <item>@drawable/icon_g</item>
-        <item>@drawable/icon_h</item>
+        <item>@drawable/famili1</item>
+        <item>@drawable/famili2</item>
+        <item>@drawable/famili3</item>
+        <item>@drawable/famili4</item>
+        <item>@drawable/famili5</item>
+        <item>@drawable/famili6</item>
+        <item>@drawable/famili7</item>
+        <item>@drawable/famili8</item>
     </string-array>
 
+    <!--nama famili-->
     <string-array name="nama_dino">
         <item>Tyrannosauridae</item>
         <item>Sauropoda</item>
@@ -32,6 +50,8 @@
         <item>Theropoda</item>
     </string-array>
 
+
+    <!--    deskripsi famili-->
     <string-array name="deskripsi_dino">
         <item>These were large, bipedal theropod dinosaurs with powerful jaws and sharp teeth. The most famous member of this family is Tyrannosaurus Rex.</item>
         <item>These were the largest land animals ever to have lived. They were herbivores with long necks, tails, and legs. Some well known sauropods include Brachiosaurus, Diplodocus, and Argentinosaurus.</item>
@@ -43,25 +63,9 @@
         <item>This is a large and diverse group of dinosaurs that includes tyrannosaurs, birds, and many other bipedal dinosaurs. Some theropods were carnivores, while others were herbivores or omnivores.</item>
     </string-array>
 
-    <string-array name="deskripsi_skincare">
-        <item>Missha All Around Aqua Sun Gel bisa Anda jadikan pilihan karena mengandung SPF 50 sehingga dapat melindungi kulit dari sinar matahari secara optimal.</item>
-        <item>COSRX Low pH Good Morning Gel Cleanser merupakan sabun cuci muka yang tersedia dalam bentuk gel.</item>
-        <item>Klairs Supple Preparation Facial Toner memiliki kandungan ekstrak daun kelor dan licorice yang dapat menjaga hidrasi dan membantu mencerahkan kulit.</item>
-        <item>Sesuai namanya, COSRX Advanced Snail 96 Mucin Power Essence mengandung lendir siput sebanyak 96% yang dapat memberi efek halus dan lembap pada kulit.</item>
-        <item>Kandungannya dapat membuat wajah lebih lembap dan tampak lebih bercahaya. Anda bisa menggunakan produk ini setelah menggunakan toner atau essence.</item>
-        <item>Jika Anda mencari produk skincare Korea yang fokus untuk mencerahkan kulit, produk SOME BY MI Yuja Niacin 30 Days Blemish Care Serum bisa jadi pilihan yang tepat.</item>
-        <item>Skin1004 Madagascar Centella Asiatica Cream merupakan produk skincare terbaik asal Korea Selatan yang memiliki klaim mampu memperkuat lapisan kulit.</item>
-        <item>Skin1004 Madagascar Centella Asiatica Cream merupakan produk skincare terbaik asal Korea Selatan yang memiliki klaim mampu memperkuat lapisan kulit.</item>
-        <item>Selain melembapkan kulit, gel lidah buaya dari Nature Republic ini dapat membantu mengatasi iritasi dan melindungi kulit dari paparan sinar matahari.</item>
-        <item>Dengan kandungan hydro ion mineral water dan ekstrak mawar, Laneige Water Sleeping Mask dapat membantu memperbaiki terkstur dan menjaga kelembapan kulit semalaman.
-                Mamonde Creamy Tint Color Balm merupakan salah satu produk skincare korea berbentuk pelembap bibir yang patut Anda jadikan pilihan.
-        Produk dari Mamonde ini merupakan gabungan sempurna dari pelembap bibir, lipstik, dan lip tint.</item>
-    </string-array>
-
-
     <string-array name="periode_dino">
         <item>Late Cretaceous (99-66 million years ago)</item>
-        <item>Late Jurassic - Late Cretaceous (157-66 million years ago)</item>
+        <item>Late Jurassic – Late Cretaceous (157–66 million years ago)</item>
         <item>Late Jurassic - Early Cretaceous (157-100 million years ago)</item>
         <item>Early Cretaceous - Late Cretaceous (145-66 million years ago)</item>
         <item>Early Cretaceous - Late Cretaceous (145-66 million years ago)</item>
@@ -97,7 +101,7 @@
         <item>These fearsome predators likely employed a mix of hunting strategies, acting as both active hunters in packs and opportunistic scavengers. Cannibalism might have also occurred within these groups. Interestingly, some evidence suggests they may have cared for their young.</item>
         <item>Imagine gentle giants roaming in herds! These colossal herbivores likely undertook long migrations to find food and may have communicated using low-frequency sounds inaudible to human ears. Building nests and caring for their young are possibilities based on available evidence.</item>
         <item>Primarily solitary or living in small groups, these herbivores munched on leaves, fruits, and seeds. Their most prominent feature, the spiky tail (thagomizer), served as a formidable defense mechanism. Whether they were active during the day or night remains under debate.</item>
-        <item>Safety in numbers! These herbivores found protection in herds while grazing on tough plants. Their horns and elaborate frills functioned for both defense against predators and visual display.  There's a possibility they cooperatively raised their young within the herd.</item>
+        <item>Safety in numbers! These herbivores found protection in herds while grazing on tough plants. Their horns and elaborate frills functioned for both defense against predators and visual display.  Theres a possibility they cooperatively raised their young within the herd.</item>
         <item>Picture heavily armored tanks lumbering across the landscape. Solitary and slow-moving, these herbivores fed on low-growing plants. Their primary defense was their impressive armor, although their activity patterns (day or night) are still being unraveled.</item>
         <item>Built for speed and agility, these dinosaurs were likely adept predators of small animals and insects. They might have lived in flocks, and some theories suggest they potentially built nests and cared for their young.</item>
         <item>Herding provided safety for these herbivores as they grazed on tough plants. Their unique head crests might have been used for communication and display within the herd. Similar to Ceratopsians, they might have exhibited cooperative breeding behavior.</item>
@@ -115,4 +119,240 @@
         <item>Suborder Ornithopoda: Hadrosauridae (Hadrosaurus), Iguanodontidae (Iguanodon), Hypsilophodontidae (Hypsilophodon)</item>
     </string-array>
 
+
+    <!--    detail-->
+
+    <!-- gambar detail famili-->
+
+    <!--nama detail famili-->
+    <string-array name="nama_detail_dino">
+        <item>Tyrannosaurus rex</item>
+        <item>Tarbosaurus bataar</item>
+        <item>Brachiosaurus altithorax</item>
+        <item>Diplodocus longus</item>
+        <item>Stegosaurus stenops</item>
+        <item>Kentrosaurus aethiopicus</item>
+        <item>Triceratops horridus</item>
+        <item>Pentaceratops sternbergi</item>
+        <item>Ankylosaurus magniventris</item>
+        <item>Euoplocephalus tutus</item>
+        <item>Gallimimus bullatus</item>
+        <item>Struthiomimus altus</item>
+        <item>Parasaurolophus walkeri</item>
+        <item>Corythosaurus casuarius</item>
+        <item>Velociraptor mongoliensis</item>
+        <item>Deinonychus antirrhopus</item>
+    </string-array>
+
+    <string-array name="gambar_detail_dino">
+        <item>@drawable/famiili1_1</item>
+        <item>@drawable/famili1_2</item>
+        <item>@drawable/famili2_1</item>
+        <item>@drawable/famili2_2</item>
+        <item>@drawable/famili3_1</item>
+        <item>@drawable/famili3_2</item>
+        <item>@drawable/famili4_1</item>
+        <item>@drawable/famili4_2</item>
+        <item>@drawable/famili5_1</item>
+        <item>@drawable/famili5_2</item>
+        <item>@drawable/famili6_1</item>
+        <item>@drawable/famili6_2</item>
+        <item>@drawable/famili7_1</item>
+        <item>@drawable/famili7_2</item>
+        <item>@drawable/famili8_1</item>
+        <item>@drawable/famili8_2</item>
+    </string-array>
+
+    <string-array name="deskripsi_detail_dino">
+        <item>The Tyrannosaurus rex is one of the largest land predators. It lived during the late Cretaceous period. Known for its powerful bite and short arms.</item>
+        <item>The Tarbosaurus bataar is a close relative of the Tyrannosaurus rex, found in Asia during the late Cretaceous period. It shares many similarities with T. rex.</item>
+        <item>The Brachiosaurus altithorax is a massive herbivore with a long neck and tall stature. It lived during the Late Jurassic period and likely fed on vegetation from tall trees.</item>
+        <item>The Diplodocus longus is a long-necked, long-tailed dinosaur from the Late Jurassic period. It had a small head relative to its body size and was a herbivore.</item>
+        <item>The Stegosaurus stenops is known for its distinctive double row of bony plates along its back and spikes on its tail. It lived during the Late Jurassic period and was an herbivore.</item>
+        <item>The Kentrosaurus aethiopicus is a smaller relative of the Stegosaurus, characterized by its long spikes on its body. It lived during the Late Jurassic period in Africa.</item>
+        <item>The Triceratops horridus is a well-known dinosaur with three horns on its face and a frill behind its head. It lived during the Late Cretaceous period and was an herbivore.</item>
+        <item>The Pentaceratops sternbergi is a large ceratopsian dinosaur with five horns on its head. It lived during the Late Cretaceous period in North America.</item>
+        <item>The Ankylosaurus magniventris is a heavily armored dinosaur with a club-like tail. It lived during the Late Cretaceous period and was primarily a herbivore.</item>
+        <item>The Euoplocephalus tutus is another armored dinosaur similar to the Ankylosaurus. It lived during the Late Cretaceous period in North America.</item>
+        <item>The Gallimimus bullatus is a fast and agile dinosaur with a long, slender body. It lived during the Late Cretaceous period and was likely an omnivore.</item>
+        <item>The Struthiomimus altus is another fast dinosaur resembling an ostrich. It lived during the Late Cretaceous period and was likely an omnivore.</item>
+        <item>The Parasaurolophus walkeri is known for its distinctive crest on its head, which may have been used for communication. It lived during the Late Cretaceous period and was an herbivore.</item>
+        <item>The Corythosaurus casuarius is another duck-billed dinosaur with a crest on its head. It lived during the Late Cretaceous period in North America.</item>
+        <item>The Velociraptor mongoliensis is a small, agile dinosaur known for its speed and intelligence. It lived during the Late Cretaceous period in Asia and was likely a carnivore.</item>
+        <item>The Deinonychus antirrhopus is another small, agile dinosaur closely related to the Velociraptor. It lived during the Early Cretaceous period in North America and was likely a carnivore.</item>
+    </string-array>
+
+    <string-array name="karakteristik_detail_dino">
+        <item>Large size, powerful bite, short arms</item>
+        <item>Large size, powerful bite, similar to T. rex</item>
+        <item>Massive herbivore, long neck, tall stature</item>
+        <item>Long-necked, long-tailed herbivore</item>
+        <item>Distinctive bony plates, spiked tail</item>
+        <item>Small relative of Stegosaurus, long spikes on body</item>
+        <item>Three horns on face, frill behind head</item>
+        <item>Large ceratopsian, five horns on head</item>
+        <item>Heavily armored, club-like tail</item>
+        <item>Armored dinosaur, similar to Ankylosaurus</item>
+        <item>Fast and agile, long, slender body</item>
+        <item>Fast dinosaur resembling an ostrich</item>
+        <item>Distinctive crest on head, likely for communication</item>
+        <item>Duck-billed dinosaur with crest on head</item>
+        <item>Small, agile dinosaur known for speed and intelligence</item>
+        <item>Small, agile dinosaur closely related to Velociraptor</item>
+    </string-array>
+
+    <string-array name="kelompok_detail_dino">
+        <item>Theropoda</item>
+        <item>Theropoda</item>
+        <item>Sauropoda</item>
+        <item>Sauropoda</item>
+        <item>Stegosauridae</item>
+        <item>Stegosauridae</item>
+        <item>Ceratopsidae</item>
+        <item>Ceratopsidae</item>
+        <item>Ankylosauria</item>
+        <item>Ankylosauria</item>
+        <item>Ornithomimidae</item>
+        <item>Ornithomimidae</item>
+        <item>Hadrosauridae</item>
+        <item>Hadrosauridae</item>
+        <item>Dromaeosauridae</item>
+        <item>Dromaeosauridae</item>
+    </string-array>
+
+    <string-array name="habitat_detail_dino">
+        <item>Forests and plains</item>
+        <item>Forests and plains</item>
+        <item>Plains and swamps</item>
+        <item>Plains and forests</item>
+        <item>Open woodlands</item>
+        <item>Plains and forests</item>
+        <item>Forests and plains</item>
+        <item>Plains</item>
+        <item>Plains and forests</item>
+        <item>Plains and forests</item>
+        <item>Plains</item>
+        <item>Plains</item>
+        <item>Plains and forests</item>
+        <item>Plains and forests</item>
+        <item>Forests</item>
+        <item>Forests</item>
+    </string-array>
+
+    <string-array name="makanan_detail_dino">
+        <item>Other dinosaurs, carrion</item>
+        <item>Other dinosaurs, carrion</item>
+        <item>Vegetation, leaves</item>
+        <item>Vegetation, leaves</item>
+        <item>Vegetation, ferns</item>
+        <item>Vegetation, leaves</item>
+        <item>Vegetation, plants</item>
+        <item>Vegetation, plants</item>
+        <item>Vegetation, plants</item>
+        <item>Vegetation, plants</item>
+        <item>Small animals, plants</item>
+        <item>Small animals, plants</item>
+        <item>Vegetation, plants</item>
+        <item>Vegetation, plants</item>
+        <item>Small animals, carrion</item>
+        <item>Small animals, carrion</item>
+    </string-array>
+
+    <string-array name="panjang_detail_dino">
+        <item>12.3 meters</item>
+        <item>11 meters</item>
+        <item>23-26 meters</item>
+        <item>24-27 meters</item>
+        <item>9 meters</item>
+        <item>4-5 meters</item>
+        <item>9 meters</item>
+        <item>7-8 meters</item>
+        <item>6-8 meters</item>
+        <item>6-7 meters</item>
+        <item>6 meters</item>
+        <item>4-5 meters</item>
+        <item>9-10 meters</item>
+        <item>9 meters</item>
+        <item>1.8 meters</item>
+        <item>3.4 meters</item>
+    </string-array>
+
+    <string-array name="tinggi_detail_dino">
+        <item>5-6 meters</item>
+        <item>5-6 meters</item>
+        <item>15 meters</item>
+        <item>8 meters</item>
+        <item>4 meters</item>
+        <item>2.5 meters</item>
+        <item>3 meters</item>
+        <item>3 meters</item>
+        <item>1.5 meters</item>
+        <item>2 meters</item>
+        <item>2 meters</item>
+        <item>2.5 meters</item>
+        <item>4 meters</item>
+        <item>4 meters</item>
+        <item>0.5 meters</item>
+        <item>1 meter</item>
+    </string-array>
+
+    <string-array name="bobot_detail_dino">
+        <item>8-9 tons</item>
+        <item>5-6 tons</item>
+        <item>30-80 tons</item>
+        <item>10-20 tons</item>
+        <item>2-3 tons</item>
+        <item>1-2 tons</item>
+        <item>6-12 tons</item>
+        <item>5-6 tons</item>
+        <item>4-6 tons</item>
+        <item>2-3 tons</item>
+        <item>1 ton</item>
+        <item>1 ton</item>
+        <item>2-3 tons</item>
+        <item>2-3 tons</item>
+        <item>15-20 kg</item>
+        <item>50-70 kg</item>
+    </string-array>
+
+    <string-array name="kelemahan_detail_dino">
+        <item>Short arms, slow movement</item>
+        <item>Short arms, slow movement</item>
+        <item>Slow movement, vulnerability due to size</item>
+        <item>Slow movement, vulnerability due to size</item>
+        <item>Slow movement, small brain</item>
+        <item>Small size, vulnerability to predators</item>
+        <item>Large size, vulnerability to predators</item>
+        <item>Large size, vulnerability to predators</item>
+        <item>Slow movement, vulnerability due to armor placement</item>
+        <item>Slow movement, vulnerability due to armor placement</item>
+        <item>Fragile bones, vulnerability to predators</item>
+        <item>Fragile bones, vulnerability to predators</item>
+        <item>Long crest, vulnerability to predators</item>
+        <item>Long crest, vulnerability to predators</item>
+        <item>Small size, vulnerability to larger predators</item>
+        <item>Small size, vulnerability to larger predators</item>
+    </string-array>
+
+    <string-array name="start_dino">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="end_dino">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+    </string-array>
 </resources>

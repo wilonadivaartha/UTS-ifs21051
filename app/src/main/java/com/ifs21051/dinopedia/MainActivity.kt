@@ -13,73 +13,85 @@ import com.ifs21051.dinopedia.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    private val dataDinos = ArrayList<Dinos>()
+    private val dataDinos = ArrayList<Famili>()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.rvDinos.setHasFixedSize(false)
-        dataDinos.addAll(getListDinos())
+
+        // Menampilkan tombol kembali jika diperlukan
+
+        binding.rvFamili.setHasFixedSize(false)
+        dataDinos.addAll(getListFamili())
         showRecyclerList()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.menu_wilo -> {
+                startActivity(Intent(this, ProfileActivity::class.java))
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
+        return true
+    }
 
     @SuppressLint("Recycle")
-    private fun getListDinos(): ArrayList<Dinos> {
-        val dataGambar =
-            resources.obtainTypedArray(R.array.gambar_dino)
-        val dataNama =
-            resources.getStringArray(R.array.nama_dino)
-        val dataDeskripsi =
-            resources.getStringArray(R.array.deskripsi_dino)
-        val dataPeriode =
-            resources.getStringArray(R.array.periode_dino)
-        val dataKarakter =
-            resources.getStringArray(R.array.karakter_dino)
-        val dataHabitat =
-            resources.getStringArray(R.array.habitat_dino)
-        val dataPerilaku =
-            resources.getStringArray(R.array.perilaku_dino)
-        val dataKlasifikasi =
-            resources.getStringArray(R.array.klasifikasi_dino)
+    private fun getListFamili(): ArrayList<Famili> {
+        val dataNama = resources.getStringArray(R.array.nama_dino)
+        val dataGambar = resources.obtainTypedArray(R.array.gambar_dino)
+        val dataDeskripsi = resources.getStringArray(R.array.deskripsi_dino)
+        val dataPeriode = resources.getStringArray(R.array.periode_dino)
+        val dataKarakter = resources.getStringArray(R.array.karakter_dino)
+        val dataHabitat = resources.getStringArray(R.array.habitat_dino)
+        val dataPerilaku = resources.getStringArray(R.array.perilaku_dino)
+        val dataKlasifikasi = resources.getStringArray(R.array.klasifikasi_dino)
+        val dataIndexStart = resources.getStringArray(R.array.start_dino)
+        val dataIndexEnd = resources.getStringArray(R.array.end_dino)
 
-        val listDinos = ArrayList<Dinos>()
+        val listDinos = ArrayList<Famili>()
         for (i in dataNama.indices) {
-            val dinos = Dinos(
-                dataGambar.getResourceId(i, -1),
+            val dinos = Famili(
                 dataNama[i],
+                dataGambar.getResourceId(i, -1),
                 dataDeskripsi[i],
                 dataPeriode[i],
                 dataKarakter[i],
                 dataHabitat[i],
                 dataPerilaku[i],
-                dataKlasifikasi[i])
+                dataKlasifikasi[i],
+                dataIndexStart[i].toInt(),
+                dataIndexEnd[i].toInt()
+            )
             listDinos.add(dinos)
         }
         return listDinos
     }
+
     private fun showRecyclerList() {
-        if (resources.configuration.orientation ==
-            Configuration.ORIENTATION_LANDSCAPE) {
-            binding.rvDinos.layoutManager =
-                GridLayoutManager(this, 2)
+        if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            binding.rvFamili.layoutManager = GridLayoutManager(this, 2)
         } else {
-            binding.rvDinos.layoutManager =
-                LinearLayoutManager(this)
+            binding.rvFamili.layoutManager = LinearLayoutManager(this)
         }
-        val listDinosAdapter = ListDinosAdapter(dataDinos)
-        binding.rvDinos.adapter = listDinosAdapter
-        listDinosAdapter.setOnItemClickCallback(object :
-            ListDinosAdapter.OnItemClickCallback {
-            override fun onItemClicked(data: Dinos) {
+        val listDinosAdapter = ListFamiliAdapter(dataDinos)
+        binding.rvFamili.adapter = listDinosAdapter
+        listDinosAdapter.setOnItemClickCallback(object : ListFamiliAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: Famili) {
                 showSelectedDinos(data)
             }
         })
     }
-    private fun showSelectedDinos(dinos: Dinos) {
-        val intentWithData = Intent(this@MainActivity,
-            DetailActivity::class.java)
-        intentWithData.putExtra(DetailActivity.EXTRA_DINOS, dinos)
-        startActivity(intentWithData)
+
+    private fun showSelectedDinos(dinos: Famili) {
+        val intent = Intent(this@MainActivity, DetailActivity::class.java)
+        intent.putExtra(DetailActivity.EXTRA_FAMILI, dinos)
+        startActivity(intent)
     }
 }

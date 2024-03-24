@@ -4,12 +4,14 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 @Parcelize
 data class Dinos(
-    var icon: Int,
-    var nama: String,
-    var deskripsi: String,
-    var periode: String,
-    var karakter: String,
-    var habitat: String,
-    var perilaku: String,
-    var klasifikasi: String,
-) : Parcelable
+    val nama: String,
+    val gambar: Int,
+    val deskripsi: String,
+    val kelompok: String,
+    val habitat: String,
+    val makanan: String,
+    val panjang: String,
+    val tinggi: String,
+    val bobot: String,
+    val kelemahan: String
+): Parcelable

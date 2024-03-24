@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Dino Pedia"
+rootProject.name = "DinoPedia"
 include(":app")
  
